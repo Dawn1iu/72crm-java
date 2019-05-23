@@ -1,21 +1,21 @@
-mysql.jdbcUrl = jdbc:mysql://127.0.0.1:3306/crm9?characterEncoding=utf8&useSSL=false&zeroDateTimeBehavior=convertToNull&tinyInt1isBit=false
-mysql.user = root
-mysql.password = Admin001m
+mysql.jdbcUrl = jdbc:mysql://10.171.162.31:3306/study?characterEncoding=utf8&useSSL=false&zeroDateTimeBehavior=convertToNull&tinyInt1isBit=false
+mysql.user = study_test
+mysql.password = kwwHn4JzfIoL
 jfinal.devMode = false
 jfinal.redis=MainRedis,field
 #---------------------------------------------------------
 MainRedis.open = true
-MainRedis.host=127.0.0.1
+MainRedis.host=10.165.180.153
 MainRedis.port=6379
 MainRedis.timeout=20000
-MainRedis.password=123456
-MainRedis.cacheName = 72crm
+MainRedis.password=MY9uL3gN
+MainRedis.cacheName=72crm
 #---------------------------------------------------------
 #---------------------------------------------------------
 field.open = true
-field.host=127.0.0.1
+field.host=10.165.180.153
 field.port=6379
 field.timeout=20000
-field.password=123456
+field.password=MY9uL3gN
 field.cacheName = field
 #---------------------------------------------------------
